@@ -17,6 +17,7 @@ export class UsersController extends baseController implements IUserController {
 	}
 
 	login(req: Request, res: Response, next: NextFunction) {
+
 		new HttpError(401, 'Auth error');
 		// this.ok(res, 'login')
 	}

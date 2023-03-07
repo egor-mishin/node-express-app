@@ -5,6 +5,7 @@
   "main": "src/index.ts",
   "scripts": {
     "dev": "nodemon",
+    "debug": "nodemon --inspect",
     "lint": "eslint ./src/**",
     "lint:fix": "eslint ./src/** --fix",
     "start": "node ./dist/main.js",
